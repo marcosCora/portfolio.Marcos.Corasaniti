@@ -1,0 +1,44 @@
+.mindset {
+  padding: 6rem 10%;
+  background-color: rgba(242, 242, 244, 0.02);
+}
+
+.mindset-content {
+  max-width: 900px;
+}
+
+.mindset h2 {
+  color: var(--text-main);
+}
+
+.mindset-intro {
+  max-width: 650px;
+  font-size: 1.05rem;
+  opacity: 0.85;
+  margin-bottom: 2.5rem;
+}
+
+/* LISTA */
+.mindset-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.2rem;
+}
+
+.mindset-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.mindset-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-primary);
+  font-size: 0.9rem;
+}

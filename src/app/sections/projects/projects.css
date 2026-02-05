@@ -1,0 +1,94 @@
+.projects {
+  padding: 6rem 10%;
+}
+
+.projects h2 {
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  margin-bottom: 4rem;
+}
+
+.project {
+  max-width: 900px;
+  margin-bottom: 6rem;
+}
+
+.project-header h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+.project-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  font-size: 0.85rem;
+  color: var(--accent-primary);
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.project-role {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.project-description {
+  margin: 1.5rem 0 2.5rem;
+  max-width: 700px;
+  opacity: 0.9;
+}
+
+.project-block {
+  margin-bottom: 2rem;
+}
+
+.project-block h4 {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  color: var(--accent-secondary);
+}
+
+.project-block ul {
+  padding-left: 1.2rem;
+}
+
+.project-block li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.project-stack {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.project-learning {
+  margin-top: 3rem;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(0, 224, 199, 0.4);
+}
+
+.project-learning p {
+  opacity: 0.85;
+}
+
+.project-secondary {
+  opacity: 0.95;
+}
+
+.project-secondary .project-header h3 {
+  font-size: 1.4rem;
+}
+
+.project-secondary .project-learning {
+  border-left-color: rgba(139, 61, 255, 0.25);
+}

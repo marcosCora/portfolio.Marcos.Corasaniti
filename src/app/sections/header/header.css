@@ -1,0 +1,16 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.2rem 10%;
+  background: var(--bg-glass);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+
+.site-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: var(--text-main);
+}

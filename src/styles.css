@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* Fondos */
+  --bg-main: #0B0B0D;
+  --bg-secondary: #2A2A2E;
+
+  /* Texto */
+  --text-main: #F2F2F4;
+  --text-muted: rgba(242, 242, 244, 0.7);
+
+  /* Acentos */
+  --accent-primary: #00E0C7;   /* turquesa */
+  --accent-secondary: #8B3DFF; /* violeta */
+  --accent-alert: #5CFF2E;     /* verde neón (uso mínimo) */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
